@@ -118,7 +118,7 @@ class ShipStation_Endpoint {
 	
 		$Member = new Member($Order->Field["MemberId"]);
 		$Status = "Holding"; // default is on hold..
-		$MStat = @$this->MemberTekStatusValues[$Order->Field['Status']];
+		$MStat = @$this->MemberStatusValues[$Order->Field['Status']];
 		if($MStat){
 			$Status = $MStat;
 		}
@@ -200,7 +200,7 @@ class ShipStation_Endpoint {
 				$this->SQLDate($End)."' ORDER BY OrderId ASC LIMIT $PageStart,$PageSize";
 		DeLog("Looking for Orders..$Qu");		
 		$Res = DatabaseQuery($Qu);
-		// first get the data from membertek.
+		// first get the data from .
 		$Orders = array();
 		while($Row = DatabaseFetchRow($Res)){
 			DeLog("row :".print_r($Row,true));
