@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        body {
+            font-family: 'Open+Sans', sans-serif;
+            font-size: 48px;
+
+        }
+
+        body {
+            background-color: #67b6e8;
+        }
+
+    </style>
+
+    <meta charset="utf-8"/>
+    <title>Justin's JQuery Jumper ;)</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#sortable").sortable({
+                placeholder: "ui-sortable-placeholder"
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<ul id="sortable">
+    <li class="ui-state-default">Justin's</li>
+    <li class="ui-state-default">JQuery</li>
+    <li class="ui-state-default">Jumper</li>
+    <li class="ui-state-default">Just</li>
+    <li class="ui-state-default">Jumps</li>
+    <li class="ui-state-default">Jiggy</li>
+    <li class="ui-state-default">Jimbo</li>
+</ul>
+
+</body>
+</html>
