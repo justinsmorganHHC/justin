@@ -1,6 +1,8 @@
 
 Justinsmorgan testing repo readme.md
 
+Screenshot of simple PHP form for website in action with CSS template
+
 ![screenshot](https://user-images.githubusercontent.com/8302413/33139548-9b163c92-cf7b-11e7-8513-bbc0451be43a.png)
 
 
