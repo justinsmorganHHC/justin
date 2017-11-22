@@ -1,6 +1,12 @@
 
 Justinsmorgan testing repo readme.md
 
+ShipStationEp.php - Show online API creation with PHP/CDATA
+
+netconfig scripts - Show Linux DevOps automation for any number of IP CDIR Blocks on Systems
+netconfigup.sh
+netconfigdown.sh
+
 Screenshot of simple PHP form for website in action with CSS template
 
 ![screenshot](https://user-images.githubusercontent.com/8302413/33139548-9b163c92-cf7b-11e7-8513-bbc0451be43a.png)
